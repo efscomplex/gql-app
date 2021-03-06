@@ -1,0 +1,36 @@
+{
+	"name": "node-gql-wwww",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"licenses": [],
+	"scripts": {
+		"build": "webpack --mode production",
+		"dev": "webpack serve --mode development",
+		"start": "yarn dev"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"css-loader": "^5.0.1",
+		"esbuild-loader": "^2.7.0",
+		"html-webpack-plugin": "^4.5.1",
+		"style-loader": "^2.0.0",
+		"webpack": "^5.15.0",
+		"webpack-cli": "^4.3.1",
+		"webpack-dev-server": "^3.11.2"
+	},
+	"dependencies": {
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"bootstrap": "^4.5.3",
+		"dotenv-webpack": "^6.0.0",
+		"graphql": "^15.4.0",
+		"graphql-request": "^3.4.0",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-query": "^3.5.14",
+		"reactstrap": "^8.8.1"
+	}
+}
